@@ -72,7 +72,7 @@ I'll be posting throughout the project. Not just the wins. The rejections, the r
 
 If you're a senior engineer wondering whether the architect/TL path makes sense for you in this environment, I hope this is useful. If you're considering me for a project — this is how I think and how I work.
 
-The project is [Erebor on GitHub](https://github.com/edwinabot). The next post will be about building the Go order book ingestion service — specifically what the spec looked like, what Claude Code produced, and what I had to push back on.
+The project is [Erebor on GitHub](https://github.com/users/edwinabot/projects/3) and the here's the [erebor](https://github.com/edwinabot/erebor) repo. The next post will be about building the Go order book ingestion service — specifically what the spec looked like, what Claude Code produced, and what I had to push back on.
 
 I don't know yet how much of the role transition will feel natural and how much will feel like loss. Probably both. That's worth writing about too.
 
