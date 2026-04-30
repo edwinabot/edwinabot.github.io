@@ -25,7 +25,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   had to elaborate and might prove helpful for somebody else. It might be of 
   interest to folks considering me for a project.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://edwinabot.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: 
 github_username:  edwinabot
 
@@ -33,6 +33,24 @@ github_username:  edwinabot
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-polyglot
+
+# Multilingual (jekyll-polyglot)
+languages: ["en", "es"]
+default_lang: "en"
+exclude_from_localization: ["assets", "javascript", "images", "css", "public", ".github"]
+parallel_localization: true
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      lang: en
+
+# Disable sass sourcemaps: their destination collides with main.css under
+# polyglot's per-language build passes, corrupting the compiled stylesheet.
+sass:
+  sourcemap: never
 
 # Exclude from processing.
 # The following items will not be processed, by default.

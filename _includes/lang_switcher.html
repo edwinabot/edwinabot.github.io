@@ -1,0 +1,33 @@
+{%- comment -%}
+  Language switcher: links to the same page in each available language.
+
+  jekyll-polyglot rewrites internal href URLs (relative and absolute) on
+  non-default-lang passes to add the active lang prefix. We want our switcher
+  links to remain literal — so we emit `ferh="..."` instead of `href="..."`,
+  which polyglot's correct_nonrelativized_urls step converts back to `href`
+  without rewriting.
+
+  page.url includes the active lang prefix during a non-default-lang pass
+  (e.g. "/es/about/"), so we strip it before reattaching the target lang.
+{%- endcomment -%}
+{%- assign cur_url = page.url -%}
+{%- if site.active_lang != site.default_lang -%}
+  {%- assign cur_prefix = '/' | append: site.active_lang -%}
+  {%- assign cur_url = cur_url | remove_first: cur_prefix -%}
+  {%- if cur_url == '' -%}{%- assign cur_url = '/' -%}{%- endif -%}
+{%- endif -%}
+<span class="page-link lang-switcher">
+  {%- for lang in site.languages -%}
+    {%- if lang == site.active_lang -%}
+      <strong>{{ lang | upcase }}</strong>
+    {%- else -%}
+      {%- if lang == site.default_lang -%}
+        {%- assign target = cur_url -%}
+      {%- else -%}
+        {%- assign target = cur_url | prepend: lang | prepend: '/' -%}
+      {%- endif -%}
+      <a ferh="{{ target | relative_url }}">{{ lang | upcase }}</a>
+    {%- endif -%}
+    {%- unless forloop.last %} · {% endunless -%}
+  {%- endfor -%}
+</span>
