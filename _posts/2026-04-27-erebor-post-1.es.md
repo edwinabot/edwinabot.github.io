@@ -7,7 +7,7 @@ lang: es
 permalink: /2026/04/27/erebor-post-1.html
 ---
 
-Tengo más de diez años en backend e ingeniería de sistemas. Escribí mucho código. Y hace un tiempo que vengo dándole vueltas a una idea incómoda: creo que los días del código artesanal, como medida principal del valor de un ingeniero, están terminando.
+Tengo más de trece años en desarrollo de software, principalmente backend. Escribí mucho código. Y hace un tiempo que vengo dándole vueltas a una idea incómoda: creo que los días del código artesanal, como medida principal del valor de un ingeniero, están terminando.
 
 Este post es sobre un side project que recién empecé — Erebor, una solución de trading de microestructura de alta frecuencia para Binance, enfocada exclusivamente en datos de Level 2 del libro de órdenes. Pero en realidad va de otra cosa: un intento deliberado de pasar de ser alguien que escribe software a alguien que dirige agentes que escriben software. Un arquitecto. Un líder técnico. Un guardián de la calidad.
 
@@ -80,4 +80,4 @@ Todavía no sé cuánto de la transición de rol va a sentirse natural y cuánto
 
 ---
 
-*Edwin Alexis Abot — abril de 2026*
+*Edwin Alexis Abot — Abril de 2026*

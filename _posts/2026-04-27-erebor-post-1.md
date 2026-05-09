@@ -5,7 +5,7 @@ date: 2026-04-27
 tags: [agentic-ai, software-engineering, career, side-projects]
 ---
 
-I have over ten years in backend and systems engineering. I've written a lot of code. And I've been sitting with an uncomfortable idea for a while now: I think the days of handcrafted code, as the primary measure of an engineer's value, are over.
+I have over therteen years in software development, mainly backend. I've written a lot of code. And I've been sitting with an uncomfortable idea for a while now: I think the days of handcrafted code, as the primary measure of an engineer's value, are over.
 
 This post is about a side project I just started — Erebor, a high-frequency microstructure trading solution for Binance focused exclusively on Level 2 order book data. But it's really about something else: a deliberate attempt to transition from being someone who writes software to someone who directs agents that write software. An architect. A technical lead. A guardian of quality.
 
