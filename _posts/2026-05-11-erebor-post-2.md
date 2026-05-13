@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Order book ingestion: iterating on a spec I wrote but code I didn't"
+title: "When you know the spec but not the code"
 date: 2026-05-11
 tags: [agentic-ai, software-engineering, go, side-projects]
 ---

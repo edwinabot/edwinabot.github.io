@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Ingestión del libro de órdenes: iterando sobre una spec que escribí pero un código que no"
+title: "Cuando conocés la spec pero no el código"
 date: 2026-05-11
 tags: [agentic-ai, software-engineering, go, side-projects]
 lang: es
